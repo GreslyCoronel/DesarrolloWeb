@@ -1,7 +1,7 @@
 
 .wrapper{
- max-width:1500px;
- margin: 0 auto;
+   max-width:1500px;
+   margin: 0 auto;
 
 }
 
@@ -12,21 +12,26 @@
 
 .container{
     background: rgb(18, 157, 192);
-    overflow: hidden;
+    display: flex;
+    height: 60px;
+    align-items: center;
+    flex-direction: row-reverse;  /* para invertir cajas */
     
 }
 
 .menu{
+    text-align: center;
     background: blue;
-    float: left;
     width: 20%;
-    height: 40px;
+  
+  
     
 }
 
 .content{
+    text-align: center;
     background: palegreen;
-    float: left;
+    
     width: 80%;
 
     
@@ -34,6 +39,5 @@
 
 .footer{
     background: burlywood;
-    clear: both;
     height: 30px;
 }
